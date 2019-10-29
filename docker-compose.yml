@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  back_hw2:
+    image: back_hw2
+    build: .
+    ports:
+      - 8080:8080
+    volume:
+      - ./:/appHW2
